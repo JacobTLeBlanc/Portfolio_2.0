@@ -2,10 +2,22 @@
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    gap: 10px;
 
 
     width: 100%;
+}
+
+.buttonList {
+    display: flex;
+    gap: 10px;
+}
+
+.header {
+    font-size: 2em;
+    margin: auto 10px;
+    font-family: Times New Roman, serif;
+    color:#ffffff;
+    font-weight:bold;
 }
 
 
