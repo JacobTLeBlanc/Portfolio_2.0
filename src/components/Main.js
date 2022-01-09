@@ -5,6 +5,11 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from "./pages/Projects";
 
+/**
+ * Main Component
+ *
+ * Determines which page to show depending on the current URL
+ */
 const Main = () => {
     return (
         <Routes>

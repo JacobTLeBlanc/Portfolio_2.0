@@ -4,7 +4,12 @@ import NavBar from "./common/NavBar";
 import '../styles/App.css'
 import Main from "./Main";
 
-const App = (props) => {
+/**
+ * App Component
+ *
+ * Component that is initially rendered in index.js
+ */
+const App = () => {
 
     return (
         <div>
