@@ -1,11 +1,13 @@
 import React from 'react'
+import Projects from "./Projects";
 
 /**
  * Home/Main page
  */
 const Home = () => {
+
     return (
-        <p>Home</p>
+        <Projects />
     )
 }
 export default Home

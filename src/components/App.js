@@ -1,8 +1,7 @@
 import React from "react";
-import Home from "./pages/Home";
-import NavBar from "./common/NavBar";
 import '../styles/App.css'
 import Main from "./Main";
+import Header from "./layout/Header";
 
 /**
  * App Component
@@ -14,7 +13,7 @@ const App = () => {
     return (
         <div>
             <header>
-                <NavBar />
+                <Header />
             </header>
 
             <main>
