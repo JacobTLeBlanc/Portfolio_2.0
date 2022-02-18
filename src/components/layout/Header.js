@@ -1,20 +1,21 @@
 import React from "react";
-import {AppBar, Toolbar, Typography} from "@mui/material";
+import {AppBar, Paper, Toolbar, Typography} from "@mui/material";
+import "../../styles/layout/Header.css"
 
 /**
  * Header component
  *
  */
-const Header = () => {
+const Header = (props) => {
 
     return (
-        <AppBar position="static">
+        <Paper className="header" id="header">
             <Toolbar>
-                <Typography variant="h6" component="div" className="header">
-                    Jacob LeBlanc's Portfolio
+                <Typography variant={props.variant}>
+                    {props.text}
                 </Typography>
             </Toolbar>
-        </AppBar>
+        </Paper>
     )
 }
 

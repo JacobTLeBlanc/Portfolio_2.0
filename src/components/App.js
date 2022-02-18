@@ -13,7 +13,7 @@ const App = () => {
     return (
         <div>
             <header>
-                <Header />
+                <Header text="Jacob LeBlanc's Portfolio" variant="h6" />
             </header>
 
             <main>

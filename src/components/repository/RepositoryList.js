@@ -4,6 +4,7 @@ import Repository from "./Repository";
 import {Paper, Table, TableBody, TableCell, TableContainer, TableHead, TablePagination, TableRow} from "@mui/material";
 const {useEffect} = require("react");
 import '../../styles/repository/RepositoryList.css'
+import "../../styles/common.css"
 
 /**
  * Repository List component to render list of Repositories in Table

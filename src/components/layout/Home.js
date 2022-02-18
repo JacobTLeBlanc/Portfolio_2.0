@@ -1,5 +1,6 @@
 import React from 'react'
 import Projects from "./Projects";
+import Skills from "./Skills";
 
 /**
  * Home/Main page
@@ -7,7 +8,11 @@ import Projects from "./Projects";
 const Home = () => {
 
     return (
-        <Projects />
+        <div>
+            <Skills />
+            <Projects />
+        </div>
+
     )
 }
 export default Home
