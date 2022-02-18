@@ -1,6 +1,5 @@
 import React from 'react'
 import RepositoryList from "../repository/RepositoryList";
-import {Paper, Toolbar, Typography} from "@mui/material";
 
 import "../../styles/layout/Header.css";
 import "../../styles/layout/Projects.css"
