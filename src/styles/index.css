@@ -1,5 +1,4 @@
 .body {
-    background-image: url("../images/background_beach.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
+    background-image: url("../images/repeating_background.jpg");
+    background-repeat: repeat;
 }

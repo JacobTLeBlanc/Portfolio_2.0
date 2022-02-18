@@ -20,9 +20,11 @@ const App = () => {
                 <Main />
             </main>
 
-            <footer className="footer">
-                Copyright 2022 - Jacob LeBlanc. All Rights Reserved.
-            </footer>
+            <div className="footer_div">
+                <footer className="footer">
+                    Copyright 2022 - Jacob LeBlanc. All Rights Reserved.
+                </footer>
+            </div>
         </div>
     )
 }
