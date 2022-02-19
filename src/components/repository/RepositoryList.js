@@ -94,6 +94,7 @@ const RepositoryList = () => {
                     onPageChange={onPageChange}
                     rowsPerPage={pageSize}
                     rowsPerPageOptions={[pageSize]}
+                    labelDisplayedRows={({ from, to, count }) => `${from} - ${to} / ${count}`}
                 />
             </Paper>
         </div>

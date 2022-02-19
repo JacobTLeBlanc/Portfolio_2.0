@@ -81,7 +81,7 @@ const Skills = () => {
                     </ListItemButton>
                     <Collapse in={awsOpen}>
                         <Typography padding="15px">
-                            S3, DynamoDB, Lambda, Elastic Beanstalk, EC2, ECS, ECR, CloudWatch, API Gateway, Secrets Manager, IAM, CodePipeline.
+                            S3, DynamoDB, Lambda, Elastic Beanstalk, EC2, ECS, ECR, CloudWatch, API Gateway, Secrets Manager, IAM, CodePipeline and Amplify.
                         </Typography>
                     </Collapse>
 
