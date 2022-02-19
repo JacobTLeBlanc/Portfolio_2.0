@@ -2,6 +2,7 @@ import React from "react";
 import '../styles/App.css'
 import Main from "./Main";
 import Header from "./layout/Header";
+import background from "../../static/images/repeating_background.jpg";
 
 /**
  * App Component
@@ -11,7 +12,7 @@ import Header from "./layout/Header";
 const App = () => {
 
     return (
-        <div>
+        <div style={{backgroundImage: `url(${background})`, backgroundRepeat: 'repeat', padding: '5px'}}>
             <header>
                 <Header text="Jacob LeBlanc's Portfolio" variant="h6" />
             </header>
@@ -29,4 +30,4 @@ const App = () => {
     )
 }
 
-export default App
+export default App;

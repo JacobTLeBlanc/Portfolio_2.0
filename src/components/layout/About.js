@@ -1,5 +1,6 @@
 import {Avatar, Paper, Typography} from "@mui/material";
 import React from "react";
+import self_image from "../../../static/images/self_image.jpg";
 
 /**
  * About component.
@@ -12,7 +13,7 @@ const About = () => {
             <div style={{padding: '10px', display: 'flex', flexDirection: 'row'}}>
                 <Avatar
                     alt="Jacob LeBlanc"
-                    src="../../images/self_image.jpg"
+                    src={self_image}
                     sx={{ width: '20vh', height: '20vh'}}
                 />
                 <Typography style={{marginLeft: '10px'}}>
