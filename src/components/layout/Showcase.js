@@ -9,7 +9,7 @@ import {
     emailServiceTechnologies,
     gitRestApiCodeString,
     gitRestApiDescription, gitRestApiLink,
-    gitRestApiTechnologies
+    gitRestApiTechnologies, portfolioCodeString, portfolioDescription, portfolioLink, portfolioTechnologies
 } from "../../js/constants/ProjectStrings";
 
 /**
@@ -20,6 +20,16 @@ const Showcase = () => {
     return (
         <div style={{maxWidth: '1250px', margin: '0px auto'}} >
             <Grid container spacing={'5px'}>
+                <Grid item xs={12}>
+                    <Project
+                        name = "Portfolio 2.0"
+                        code = {portfolioCodeString}
+                        description = {portfolioDescription}
+                        technologies = {portfolioTechnologies}
+                        language = "javascript"
+                        link = {portfolioLink}
+                    />
+                </Grid>
                 <Grid item xs={12}>
                     <Project
                         name = "Git Rest API"

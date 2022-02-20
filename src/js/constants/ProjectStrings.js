@@ -1,4 +1,26 @@
 /**
+ * Portf0lio 2.0
+ */
+export const portfolioCodeString = "/**\n" +
+    " * On load, get repository data from repository service\n" +
+    " *\n" +
+    " */\n" +
+    "useEffect(() => {\n" +
+    "    if (repositories.length === 0) {\n" +
+    "        repositoryService.getRepos(\"jacobtleblanc\").then(\n" +
+    "            (data) => {\n" +
+    "                repositoryData = data;\n" +
+    "                createRepositories(data);\n" +
+    "            }\n" +
+    "        )\n" +
+    "    }\n" +
+    "})";
+
+export const portfolioDescription = "Portfolio built with React, and hosted using AWS Amplify";
+export const portfolioTechnologies = "React, Route53, Amplify and Terraform";
+export const portfolioLink = "https://github.com/JacobTLeBlanc/Portfolio_2.0";
+
+/**
  * Git Rest API
  */
 export const gitRestApiCodeString = "def get_repos(user):\n" +
