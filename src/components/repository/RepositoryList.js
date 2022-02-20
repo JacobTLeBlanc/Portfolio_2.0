@@ -46,7 +46,6 @@ const RepositoryList = () => {
                 <Repository
                     key = {currentRepo.name}
                     name = {currentRepo.name}
-                    description = {currentRepo.description}
                     url = {currentRepo.html_url}
                 />
             )
@@ -92,7 +91,6 @@ const RepositoryList = () => {
                         <TableHead>
                             <TableRow>
                                 <TableCell className="table-cell-name">Name</TableCell>
-                                <TableCell>Description</TableCell>
                                 <TableCell align="right" className="table-cell-source-code" >Source Code</TableCell>
                             </TableRow>
                         </TableHead>

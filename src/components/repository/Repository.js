@@ -24,7 +24,6 @@ const Repository = (props) => {
     return (
         <TableRow key={props.name}>
             <TableCell className="table-cell-name">{props.name}</TableCell>
-            <TableCell>{props.description}</TableCell>
             <TableCell align="right" ><IconButton onClick={onGitHubClick} ><GitHubIcon /></IconButton></TableCell>
         </TableRow>
     )

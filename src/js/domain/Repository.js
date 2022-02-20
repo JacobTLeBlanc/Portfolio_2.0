@@ -14,7 +14,7 @@ class Repository {
     }
 
     getUrl() {
-        return this.description;
+        return this.url;
     }
 
     setName(name) {

@@ -1,6 +1,7 @@
 import {Avatar, Paper, Typography} from "@mui/material";
 import React from "react";
 import self_image from "../../../static/images/self_image.jpg";
+import "../../styles/layout/About.css"
 
 /**
  * About component.
@@ -10,11 +11,12 @@ import self_image from "../../../static/images/self_image.jpg";
 const About = () => {
     return (
         <Paper className="paper">
-            <div style={{padding: '10px', display: 'flex', flexDirection: 'row'}}>
+            <div style={{padding: '10px', display: 'flex'}} className="about">
                 <Avatar
+                    id="avatar_image"
                     alt="Jacob LeBlanc"
                     src={self_image}
-                    sx={{ width: '5vh', height: '5vh', margin: 'auto 0px'}}
+                    sx={{margin: 'auto 0px'}}
                 />
                 <Typography style={{marginLeft: '10px'}}>
                     Welcome to my portfolio! I'm an avid programmer and always looking to improve my skills. I'm currently
