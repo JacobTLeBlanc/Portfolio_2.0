@@ -14,7 +14,7 @@ const About = () => {
                 <Avatar
                     alt="Jacob LeBlanc"
                     src={self_image}
-                    sx={{ width: '20vh', height: '20vh'}}
+                    sx={{ width: '5vh', height: '5vh', margin: 'auto 0px'}}
                 />
                 <Typography style={{marginLeft: '10px'}}>
                     Welcome to my portfolio! I'm an avid programmer and always looking to improve my skills. I'm currently

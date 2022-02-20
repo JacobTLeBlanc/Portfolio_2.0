@@ -1,7 +1,18 @@
 import {RepositoryService} from "../../js/service/RepositoryService";
 import React, {useState} from "react";
 import Repository from "./Repository";
-import {Paper, Table, TableBody, TableCell, TableContainer, TableHead, TablePagination, TableRow} from "@mui/material";
+import {
+    Divider,
+    ListSubheader,
+    Paper,
+    Table,
+    TableBody,
+    TableCell,
+    TableContainer,
+    TableHead,
+    TablePagination,
+    TableRow
+} from "@mui/material";
 const {useEffect} = require("react");
 import '../../styles/repository/RepositoryList.css'
 import "../../styles/common.css"
@@ -73,6 +84,10 @@ const RepositoryList = () => {
         <div>
             <Paper className="paper">
                 <TableContainer className="table-container" >
+                    <ListSubheader >
+                        All Projects
+                    </ListSubheader>
+                    <Divider />
                     <Table>
                         <TableHead>
                             <TableRow>

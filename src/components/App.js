@@ -12,7 +12,7 @@ import background from "../../static/images/repeating_background.jpg";
 const App = () => {
 
     return (
-        <div style={{backgroundImage: `url(${background})`, backgroundRepeat: 'repeat', padding: '5px'}}>
+        <div style={{backgroundImage: `url(${background})`, backgroundRepeat: 'repeat', padding: '5px', minHeight: '100vh'}}>
             <header>
                 <Header text="Jacob LeBlanc's Portfolio" variant="h6" />
             </header>
